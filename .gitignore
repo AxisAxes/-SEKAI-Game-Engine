@@ -9,7 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+/SEKAI/cmake-build-debug/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
