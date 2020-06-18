@@ -1,0 +1,3 @@
+/home/gabriel/All/Projects/-SEKAI-Game-Engine/SEKAI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gabriel/All/Projects/-SEKAI-Game-Engine/SEKAI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gabriel/All/Projects/-SEKAI-Game-Engine/SEKAI/cmake-build-debug/CMakeFiles/SEKAI.dir

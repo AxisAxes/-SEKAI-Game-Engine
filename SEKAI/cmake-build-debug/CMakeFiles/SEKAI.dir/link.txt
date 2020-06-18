@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SEKAI.dir/main.cpp.o  -o SEKAI  -lglut -lglfw -lGLEW -lGL -lGLU 
