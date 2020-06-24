@@ -123,6 +123,33 @@ SEKAI/fast:
 	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/build
 .PHONY : SEKAI/fast
 
+SandBox/SandboxApp.o: SandBox/SandboxApp.cpp.o
+
+.PHONY : SandBox/SandboxApp.o
+
+# target to build an object file
+SandBox/SandboxApp.cpp.o:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/SandBox/SandboxApp.cpp.o
+.PHONY : SandBox/SandboxApp.cpp.o
+
+SandBox/SandboxApp.i: SandBox/SandboxApp.cpp.i
+
+.PHONY : SandBox/SandboxApp.i
+
+# target to preprocess a source file
+SandBox/SandboxApp.cpp.i:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/SandBox/SandboxApp.cpp.i
+.PHONY : SandBox/SandboxApp.cpp.i
+
+SandBox/SandboxApp.s: SandBox/SandboxApp.cpp.s
+
+.PHONY : SandBox/SandboxApp.s
+
+# target to generate assembly for a file
+SandBox/SandboxApp.cpp.s:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/SandBox/SandboxApp.cpp.s
+.PHONY : SandBox/SandboxApp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Application/Application.o: src/Application/Application.cpp.o
+
+.PHONY : src/Application/Application.o
+
+# target to build an object file
+src/Application/Application.cpp.o:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Application/Application.cpp.o
+.PHONY : src/Application/Application.cpp.o
+
+src/Application/Application.i: src/Application/Application.cpp.i
+
+.PHONY : src/Application/Application.i
+
+# target to preprocess a source file
+src/Application/Application.cpp.i:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Application/Application.cpp.i
+.PHONY : src/Application/Application.cpp.i
+
+src/Application/Application.s: src/Application/Application.cpp.s
+
+.PHONY : src/Application/Application.s
+
+# target to generate assembly for a file
+src/Application/Application.cpp.s:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Application/Application.cpp.s
+.PHONY : src/Application/Application.cpp.s
+
+src/Graphics/Window.o: src/Graphics/Window.cpp.o
+
+.PHONY : src/Graphics/Window.o
+
+# target to build an object file
+src/Graphics/Window.cpp.o:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Graphics/Window.cpp.o
+.PHONY : src/Graphics/Window.cpp.o
+
+src/Graphics/Window.i: src/Graphics/Window.cpp.i
+
+.PHONY : src/Graphics/Window.i
+
+# target to preprocess a source file
+src/Graphics/Window.cpp.i:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Graphics/Window.cpp.i
+.PHONY : src/Graphics/Window.cpp.i
+
+src/Graphics/Window.s: src/Graphics/Window.cpp.s
+
+.PHONY : src/Graphics/Window.s
+
+# target to generate assembly for a file
+src/Graphics/Window.cpp.s:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Graphics/Window.cpp.s
+.PHONY : src/Graphics/Window.cpp.s
+
+src/Logger/Logger.o: src/Logger/Logger.cpp.o
+
+.PHONY : src/Logger/Logger.o
+
+# target to build an object file
+src/Logger/Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.cpp.o
+
+src/Logger/Logger.i: src/Logger/Logger.cpp.i
+
+.PHONY : src/Logger/Logger.i
+
+# target to preprocess a source file
+src/Logger/Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.cpp.i
+
+src/Logger/Logger.s: src/Logger/Logger.cpp.s
+
+.PHONY : src/Logger/Logger.s
+
+# target to generate assembly for a file
+src/Logger/Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/SEKAI.dir/build.make CMakeFiles/SEKAI.dir/src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SEKAI"
+	@echo "... SandBox/SandboxApp.o"
+	@echo "... SandBox/SandboxApp.i"
+	@echo "... SandBox/SandboxApp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Application/Application.o"
+	@echo "... src/Application/Application.i"
+	@echo "... src/Application/Application.s"
+	@echo "... src/Graphics/Window.o"
+	@echo "... src/Graphics/Window.i"
+	@echo "... src/Graphics/Window.s"
+	@echo "... src/Logger/Logger.o"
+	@echo "... src/Logger/Logger.i"
+	@echo "... src/Logger/Logger.s"
 .PHONY : help
 
 

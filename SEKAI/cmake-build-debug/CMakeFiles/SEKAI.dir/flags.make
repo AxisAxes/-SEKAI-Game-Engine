@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/gabriel/All/Projects/-SEKAI-Game-Engine/SEKAI/src -I/home/gabriel/All/Projects/-SEKAI-Game-Engine/SEKAI/SandBox 
 

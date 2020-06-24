@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/SEKAI.dir/main.cpp.o  -o SEKAI  -lglut -lglfw -lGLEW -lGL -lGLU 
+/usr/bin/c++  -g   CMakeFiles/SEKAI.dir/main.cpp.o CMakeFiles/SEKAI.dir/src/Graphics/Window.cpp.o CMakeFiles/SEKAI.dir/src/Logger/Logger.cpp.o CMakeFiles/SEKAI.dir/src/Application/Application.cpp.o CMakeFiles/SEKAI.dir/SandBox/SandboxApp.cpp.o  -o SEKAI  -lglut -lglfw -lGLEW -lGL -lGLU 
